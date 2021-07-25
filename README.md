@@ -8,6 +8,3 @@ Theses snippets are aimed essentialy for competitive programming. We have used a
 File -> Preferences -> User Snippets -> then select the language.
 You have to copy the files and paste in that file (language.json)
 
-## Snippets files format
-
-Snippets files contains C++ code with comments. 

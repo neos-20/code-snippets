@@ -1,0 +1,34 @@
+
+"nCr Modulo 1e9+7": {
+  "prefix": "nCrModuloPrime",
+  "body": [
+    "long long power(long long base,long long powers,long long moddd)",
+    "{",
+    "    if(!powers){return 1%moddd;}",
+    "    if(powers & 1) ",
+    "    {",
+    "        return power(base,powers-1,moddd)*base % moddd;",
+    "    }",
+    "    long long int answer=power(base,powers>>1,moddd);",
+    "    return (answer*answer)%moddd;",
+    "}",
+    "long long int ncr(int n,int r)",
+    "{",
+    "    long long int f[n+1];",
+    "    f[0]=1;",
+    "    for (int i = 1; i<=n; i++)",
+    "    {",
+    "        f[i]=i*f[i-1];",
+    "        f[i]%=1000000007;",
+    "    }",
+    "    long long int num=f[n];",
+    "    long long int den1=f[r];",
+    "    long long int den2=f[n-r];",
+    "    long long int den=(den1*den2)%1000000007;",
+    "    //Fermat's little theorem (power-2)",
+    "    den=power(den,1000000005,1000000007);",
+    "    return (den*num)%1000000007;",
+    "}"
+  ],
+  "description": "nCr Modulo 1e9+7"
+}

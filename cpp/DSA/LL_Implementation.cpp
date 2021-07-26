@@ -278,25 +278,21 @@ int32_t main()
     /* fast; */
     int index1 = -1;
     /* int index2 = -1; */
-    int t;
-    cin >> t;
-    while(t--)
-    {
-        listNode<int>* head1 = input(index1);
-        /* listNode<int>* head2 = input(index2); */
-        /* int key; */
-        /* cin >> key; */
-        /* reagrr(head, key, index); */
-        /* eliminateDuplicate(head, index); */
-        /* printReverse(head, index); */
-        /* cout << checkPalin(head, index); */
-        /* printlist(head, index); */
-        /* cout << endl; */
-        /* cout << atIndex(head, 1) << " " << atIndex(head, index); */
-        /* midNode(head, index); */
-        /* listNode<int>* root = mergeSorted(head1, head2); */
-        listNode<int>* root = mergeSort(head1);
-        printlist(root, index1);
+    listNode<int>* head1 = input(index1);
+    /* listNode<int>* head2 = input(index2); */
+    /* int key; */
+    /* cin >> key; */
+    /* reagrr(head, key, index); */
+    /* eliminateDuplicate(head, index); */
+    /* printReverse(head, index); */
+    /* cout << checkPalin(head, index); */
+    /* printlist(head, index); */
+    /* cout << endl; */
+    /* cout << atIndex(head, 1) << " " << atIndex(head, index); */
+    /* midNode(head, index); */
+    /* listNode<int>* root = mergeSorted(head1, head2); */
+    listNode<int>* root = mergeSort(head1);
+    printlist(root, index1);
             
     }
     return 0;

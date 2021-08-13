@@ -1,0 +1,27 @@
+"// Kadane's algo for computing max subarray sum with TC O(N)": {
+  "prefix": "kadane",
+  "body": [
+    "#include <bits/stdc++.h>// Kadane's algo for computing max subarray sum with TC O(N)",
+    "using namespace std;",
+    "",
+    "int maxSubArraySum(int arr[], int size)",
+    "{",
+    "int MaxSum=0,CurSum=0;",
+    "",
+    "for (int i = 0; i < size; i++)",
+    "{",
+    "CurSum=CurSum + arr[i];",
+    "if (CurSum>MaxSum)",
+    "MaxSum=CurSum;",
+    "",
+    "if(CurSum < 0)",
+    "CurSum=0;",
+    "}",
+    "return MaxSum;",
+    "}",
+    "",
+    "",
+    ""
+  ],
+  "description": "// Kadane's algo for computing max subarray sum with TC O(N)"
+}

@@ -18,3 +18,12 @@ you can have multiple snippets in one language by just adding a comma in the end
 
 ## Credits
 This repository is maintained by the NEOS organization on GitHub.
+
+
+
+
+<a href="https://github.com/neos-20/code-snippets/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=neos-20/code-snippets" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).

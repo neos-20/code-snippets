@@ -1,0 +1,8 @@
+"operator<< for map": {
+  "prefix": "mapprototype",
+  "body": [
+    "template<typename T, typename U>",
+    "ostream& operator<<(ostream& os, const map<T, U>& m);"
+  ],
+  "description": "operator<< for map"
+}

@@ -1,0 +1,8 @@
+"operator<< for set": {
+  "prefix": "setprototype",
+  "body": [
+    "template<typename T>",
+    "ostream& operator<<(ostream& os,const set<T>& s);"
+  ],
+  "description": "operator<< for set"
+}

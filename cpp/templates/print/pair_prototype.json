@@ -1,0 +1,8 @@
+"operator<< for pair": {
+  "prefix": "pairprototype",
+  "body": [
+    "template<typename T, typename U>",
+    "ostream& operator<<(ostream& os, const pair<T, U>& p);"
+  ],
+  "description": "operator<< for pair"
+}

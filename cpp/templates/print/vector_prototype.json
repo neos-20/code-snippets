@@ -1,0 +1,8 @@
+"operator<< for vector": {
+  "prefix": "vectorprototype",
+  "body": [
+    "template<typename T>",
+    "ostream& operator<<(ostream& os, const vector<T>& v);"
+  ],
+  "description": "operator<< for vector"
+}
